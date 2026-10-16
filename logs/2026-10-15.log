@@ -1,0 +1,13 @@
+No new items were confirmed in faculty, postdoc, conferences, journals, or companies today — mostly stale/aggregator duplicates of what's already tracked. One solid new find: an ORNL **Postdoctoral Research Associate in AI-Enabled Connected Vehicles and Smart Mobility Systems** (posted Oct 13, 2026, verified live on ORNL's own jobs portal) — strong CAV+AI fit. Digest written to `automation/digests/2026-10-15.md` and `state.json` updated with the 2 new research_inst URLs.
+Traceback (most recent call last):
+  File "/Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/build-digest-html.py", line 412, in <module>
+    main()
+  File "/Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/build-digest-html.py", line 204, in main
+    digests = [parse_digest(p) for p in files]
+  File "/Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/build-digest-html.py", line 204, in <listcomp>
+    digests = [parse_digest(p) for p in files]
+  File "/Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/build-digest-html.py", line 54, in parse_digest
+    for raw in path.read_text(encoding="utf-8").splitlines():
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1257, in read_text
+    return f.read()
+OSError: [Errno 11] Resource deadlock avoided

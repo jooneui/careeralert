@@ -1,0 +1,33 @@
+{
+  "faculty": [
+    "https://yourfuture.sdbor.edu/postings/48833",
+    "https://jobs.uc.edu/job/AssistantAssociateFull-Professor,-Transportation-Engineering-and-Systems/102622-en_US/",
+    "https://jobs.chronicle.com/job/37926242/tenure-track-assistant-or-associate-professor-civil-and-environmental-engineering/",
+    "https://www.higheredjobs.com/state/details.cfm?JobCode=179505680",
+    "https://jobs.nebraska.edu/UniversityNebraskaSystem/job/Assistant-Professor-Transportation-Engineering/1463-en_US",
+    "https://www.pharmadiversityjobboard.com/job/assistant-associate-professor-civil-architectural-and-environmental-engineering-00096512",
+    "https://careers.insidehighered.com/job/3553088/assistant-professor-civil-engineering/",
+    "https://employment.marquette.edu/postings/23696",
+    "https://careers.insidehighered.com/job/3559016/multiple-tenure-track-faculty-positions-in-civil-and-environmental-engineering/"
+  ],
+  "conferences": [
+    "https://ieee-iv.org/2027/contributions/",
+    "https://www.nationalacademies.org/events/887"
+  ],
+  "journals": [
+    "https://www.sciencedirect.com/special-issue/327417/special-issue-in-memory-of-professor-hani-mahmassani",
+    "https://www.sciencedirect.com/special-issue/329009/boosting-efficiency-sustainability-and-resilience-of-logistics-systems-decision-intelligence-with-ai-and-or",
+    "https://www.sciencedirect.com/special-issue/303483/urban-mobility-electrification",
+    "https://servicesetu.org/call-for-paper/journals/trte",
+    "https://vref.se/other/2026/new-call-for-papers-on-informal-and-shared-mobility/"
+  ],
+  "companies": [
+    "https://freehire.me/jobs/machine-learning-engineer-applied-scientist-prediction-planning-waymo-47jmwjli",
+    "https://jobright.ai/jobs/info/696f291d9c3c52633455dcdc",
+    "https://zapply.jobs/jobs/a8376f28-37d3-411f-b4ab-21bf99617b35/",
+    "https://www.uber.com/global/en/careers/list/145826/",
+    "https://startup.jobs/senior-research-scientist-foundation-model-for-simulation-waymo-8054433",
+    "https://startup.jobs/senior-research-scientist-sensor-simulation-waymo-7909468",
+    "https://startup.jobs/machine-learning-engineering-tl-behavior-planning-aurora-innovation-7610254"
+  ]
+}

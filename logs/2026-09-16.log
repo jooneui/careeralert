@@ -1,0 +1,9 @@
+Daily scan complete. Found 12 new items and logged them to `automation/digests/2026-09-16.md`, updated `automation/state.json`, and sent the notification.
+
+Summary:
+- **Faculty (4):** South Dakota State, U. Cincinnati, Manhattan University, Missouri S&T — all dedicated transportation engineering TT lines
+- **Conferences (1):** IEEE IV 2027, deadline Nov 15, 2026 (TRB 2027, WCTR 2026, ISTTT 2026, IEEE ITSC 2026 all had deadlines already passed as of today)
+- **Journals (3):** TR Part C (Mahmassani memorial SI, AI/OR logistics SI), TR Part A (urban mobility electrification SI) — deadlines weren't listed on the pages (ScienceDirect blocked direct fetch), worth the candidate double-checking
+- **Companies (4):** 3 Waymo research/applied scientist roles, 1 Uber staff scientist role in AV/mobility
+
+`raw/` and `wiki/` were left untouched per instructions.

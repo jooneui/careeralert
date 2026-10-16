@@ -1,0 +1,17 @@
+#!/bin/zsh
+set -euo pipefail
+
+VAULT_DIR="/Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career"
+LOG_FILE="$VAULT_DIR/automation/logs/$(date +%Y-%m-%d).log"
+PROMPT_FILE="$VAULT_DIR/automation/daily-scan-prompt.md"
+CLAUDE_BIN="/Users/jooneuihong/.local/bin/claude"
+
+cd "$VAULT_DIR"
+
+"$CLAUDE_BIN" -p "$(cat "$PROMPT_FILE")" \
+  --model claude-sonnet-5 \
+  --permission-mode acceptEdits \
+  --permission-prompts none \
+  --allowedTools "WebSearch WebFetch Read Write Edit Glob Grep Bash(osascript:*)" \
+  --no-session-persistence \
+  >> "$LOG_FILE" 2>&1

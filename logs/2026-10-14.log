@@ -1,0 +1,17 @@
+Not logged in · Please run /login
+WARNING: scan exited 1
+HTML dashboard -> /Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/career-digest.html (2 digest(s), 39 items, 9 open deadline(s))
+Failed to authenticate: OAuth session expired and could not be refreshed
+ERROR: scan exited 1; dashboard was not rebuilt
+Structure is valid JSON (balanced braces/brackets, properly quoted and comma-separated). The digest and state are both done.
+
+Summary of today's scan (2026-10-14):
+- **Faculty**: nothing new (Georgia Tech already tracked, UF/OU listings couldn't be confirmed as live)
+- **Postdoc**: 1 new — UF Transportation Institute postdoc, confirmed live, deadline Oct 30, 2026
+- **Research institution**: 1 new — UMTRI/Mcity 2.0 research faculty role (generative AI for AV safety), unverified due to a fetch block but found via UM's own site
+- **Conferences**: nothing new; backfilled 4 prior deadlines into `state.json` that had been reported Oct 10 but never saved
+- **Journals**: 2 new CFPs (TR Part B trustworthy-AI, Int'l J. Urban Sciences equity/mobility)
+- **Companies**: 2 new leads (Waymo, Aurora), both flagged unverified since only aggregator listings were found
+
+Two items are explicitly flagged `[unverified]` in the digest — worth a manual check before acting on them.
+HTML dashboard -> /Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/career-digest.html (3 digest(s), 56 items, 9 open deadline(s))

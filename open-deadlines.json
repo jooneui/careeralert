@@ -1,0 +1,96 @@
+[
+  {
+    "title": "IEEE IV 2027 — 38th Intelligent Vehicles Symposium",
+    "org": "IEEE ITSS",
+    "category": "conf",
+    "url": "https://ieee-iv.org/2027/contributions/",
+    "deadline": "2026-11-15",
+    "confidence": "confirmed",
+    "event": "Perth, Australia · Jun 15–18, 2027",
+    "note": "Notification Jan 15, 2027 — lands inside your interview window, so an acceptance is citable on campus visits. Best topical fit for CAV."
+  },
+  {
+    "title": "Tri-continental SI — Informal and Shared Mobility",
+    "org": "Transp. Res. Interdisciplinary Perspectives / ATS journals",
+    "category": "journal",
+    "url": "https://vref.se/other/2026/new-call-for-papers-on-informal-and-shared-mobility/",
+    "deadline": null,
+    "deadline_label": "not published — convening Oct 26–28, 2026",
+    "confidence": "unknown",
+    "event": "Bangkok convening · Oct 26–28, 2026",
+    "note": "Matches shared mobility + equity. Submission does not require attending, but the CFP PDF is the only place the deadline appears — check it this week."
+  },
+  {
+    "title": "ISTTT 27 — Int'l Symposium on Transportation and Traffic Theory",
+    "org": "Univ. of Queensland / Univ. of Sydney",
+    "category": "conf",
+    "url": "https://www.isttt2028.org/",
+    "deadline": "2027-01-15",
+    "confidence": "confirmed",
+    "event": "Brisbane · Jul 3–6, 2028",
+    "note": "Two-stage: the Jan 2027 extended abstract is the real gate; full paper not until Aug 2027. Miss the abstract and the whole symposium closes. Most prestigious theory venue in the field."
+  },
+  {
+    "title": "TR Part D SI — AI-Driven Modelling for Transportation Resilience under Disasters",
+    "org": "Transportation Research Part D",
+    "category": "journal",
+    "url": "https://servicesetu.org/call-for-paper/journals/trte",
+    "deadline": "2027-02-12",
+    "confidence": "tentative",
+    "event": "Elsevier special issue",
+    "note": "Matches resilience/climate + AI/ML. Date could not be confirmed on elsevier.com — verify on the journal's Editorial Manager page before relying on it."
+  },
+  {
+    "title": "IEEE ITSC 2027 — Intelligent Transportation Systems Conference",
+    "org": "IEEE ITSS",
+    "category": "conf",
+    "url": "https://ieee-itsc.org/2027/",
+    "deadline": "2027-03-01",
+    "confidence": "confirmed",
+    "event": "Boston, MA · Sep 21–24, 2027",
+    "note": "Submissions open Dec 1, 2026. Special session and workshop proposals also due Mar 1 / Feb 1 — organising one is a visible service line for a TT application."
+  },
+  {
+    "title": "INFORMS Annual Meeting 2027 — TSL track",
+    "org": "INFORMS Transportation Science & Logistics Society",
+    "category": "conf",
+    "url": "https://connect.informs.org/tsl/home",
+    "deadline": null,
+    "deadline_label": "expected ~mid-Apr 2027",
+    "confidence": "expected",
+    "event": "Annual meeting, autumn 2027",
+    "note": "Abstract-only, so low CV weight, but high visibility with the OR/analytics faculty who sit on search committees. Inferred from the Apr 15 2026 / Apr 17 2025 pattern. The standalone triennial TSL conference next runs ~2029."
+  },
+  {
+    "title": "TRB Annual Meeting 2028",
+    "org": "Transportation Research Board",
+    "category": "conf",
+    "url": "https://trb.secure-platform.com/a/page/TRBPaperReview",
+    "deadline": null,
+    "deadline_label": "expected ~Aug 1, 2027",
+    "confidence": "expected",
+    "event": "Washington, DC · Jan 2028",
+    "note": "2028 cycle not yet announced; inferred from TRB's fixed Jul 1 open / Aug 1 close pattern. TRB 2027 closed Aug 1, 2026 — already past. This is your first post-defense TRB."
+  },
+  {
+    "title": "TRISTAN XIII — Triennial Symposium on Transportation Analysis",
+    "org": "PUC-Rio / CIRRELT",
+    "category": "conf",
+    "url": "https://galgos.inf.puc-rio.br/tristan2028/",
+    "deadline": "2027-09-26",
+    "confidence": "tentative",
+    "event": "Porto de Galinhas, Brazil · May 28 – Jun 2, 2028",
+    "note": "Submissions open Jul 12, 2027. Dates taken from the First CFP PDF, whose date labels are jumbled, and the official site still says details are forthcoming — reconfirm closer to the time."
+  },
+  {
+    "title": "Automated Transportation Symposium (ATS) 2027",
+    "org": "SAE International (formerly TRB ARTS)",
+    "category": "conf",
+    "url": "https://trb.secure-platform.com/a/page/AutomatedRoadTransportationSymposium",
+    "deadline": null,
+    "deadline_label": "not published — watch",
+    "confidence": "unknown",
+    "event": "San Diego · Jul 26–29, 2027 (unofficial listing)",
+    "note": "Series moved from TRB to SAE and was renamed, which is why the scan lost track of it. ATS2025 took poster proposals ~3 months out, so expect a call around Apr 2027. Practitioner-heavy, strong for CAV networking."
+  }
+]

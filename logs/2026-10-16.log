@@ -1,0 +1,24 @@
+The daily scan is done. Summary:
+
+**New items found and logged** (4 total, all flagged `[unverified — may be closed]` since employer-side confirmation wasn't reachable):
+- **Faculty**: CCNY open-rank transportation professor posting
+- **Postdoc**: NREL postdoc on multi-resolution transportation/energy modeling (careers.nrel.gov itself was unreachable — JS-heavy, as expected)
+- **Research institution**: 2 Argonne postdoc postings (Vehicle Technology Assessment; AI for Intelligent Vehicles) — Argonne's own Workday portal also couldn't be fetched
+
+**No new items**: conferences, journals, companies — everything found was either already tracked, past its deadline, or too stale/unconfirmable to report.
+
+One correction made along the way: I initially flagged a TCNJ faculty posting as new, then caught that it was already in `state.json` from a prior run — pulled it back out of the digest before finalizing, so no duplicate got reported.
+
+Both `automation/digests/2026-10-16.md` and `automation/state.json` are updated.
+Traceback (most recent call last):
+  File "/Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/build-digest-html.py", line 412, in <module>
+    main()
+  File "/Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/build-digest-html.py", line 204, in main
+    digests = [parse_digest(p) for p in files]
+  File "/Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/build-digest-html.py", line 204, in <listcomp>
+    digests = [parse_digest(p) for p in files]
+  File "/Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/build-digest-html.py", line 54, in parse_digest
+    for raw in path.read_text(encoding="utf-8").splitlines():
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1257, in read_text
+    return f.read()
+OSError: [Errno 11] Resource deadlock avoided

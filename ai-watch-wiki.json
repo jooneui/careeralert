@@ -1,0 +1,45 @@
+{
+  "topics": [
+    {
+      "title": "Agentic AI",
+      "summary": "An agent uses a model in a loop with tools and feedback. Compare complete systems on the same tasks, tools, budget, and success criteria; a model score alone does not measure the whole agent.",
+      "links": [
+        {"label": "SWE-bench", "url": "https://www.swebench.com/"},
+        {"label": "Arena", "url": "https://arena.ai/leaderboard"}
+      ]
+    },
+    {
+      "title": "Model performance",
+      "summary": "Read scores with the benchmark name, test date, prompting or scaffold, and cost or latency. Rankings from different tasks are not directly interchangeable.",
+      "links": [
+        {"label": "Hugging Face evaluations", "url": "https://huggingface.co/docs/leaderboards/index"},
+        {"label": "LiveCodeBench", "url": "https://huggingface.co/spaces/livecodebench/leaderboard"}
+      ]
+    },
+    {
+      "title": "Local LLMs",
+      "summary": "For a locally runnable model, check its model card, license, size, quantization, memory needs, context length, and performance on the task you actually need.",
+      "links": [
+        {"label": "Hugging Face models", "url": "https://huggingface.co/models"},
+        {"label": "Hugging Face model cards", "url": "https://huggingface.co/docs/hub/model-cards"}
+      ]
+    },
+    {
+      "title": "AI in research",
+      "summary": "Track both AI methods used within studies and AI tools used by researchers for literature work, coding, analysis, and writing. Prefer papers and methods sections; record validation, reproducibility, and disclosure.",
+      "links": [
+        {"label": "Hugging Face papers", "url": "https://huggingface.co/papers"},
+        {"label": "arXiv AI", "url": "https://arxiv.org/list/cs.AI/recent"}
+      ]
+    },
+    {
+      "title": "Community views",
+      "summary": "Reddit, Hacker News, GitHub, and model discussions show user experience and criticism. Treat threads as individual views, not representative surveys or benchmark evidence.",
+      "links": [
+        {"label": "r/LocalLLaMA", "url": "https://www.reddit.com/r/LocalLLaMA/"},
+        {"label": "Hacker News", "url": "https://news.ycombinator.com/"},
+        {"label": "Hugging Face discussions", "url": "https://huggingface.co/models"}
+      ]
+    }
+  ]
+}

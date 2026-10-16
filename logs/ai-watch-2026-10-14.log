@@ -1,0 +1,10 @@
+Done. Wrote `automation/ai-watch-digests/2026-10-14.md` covering all five sections (this was the first run, so I used roughly a 2-3 week window):
+
+- **Releases**: Claude Opus/Sonnet/Haiku 5.5, Gemini 4 Argon, Mistral Large 4 (preview, weights pending)
+- **Performance**: Artificial Analysis Intelligence Index snapshot (Opus 5.5 leading); SWE-bench/Arena linked as resources since their live tables are JS-rendered and unreadable
+- **Local LLMs**: DeepSeek-V4.1-Flash (MIT, huge MoE, needs multi-GPU hardware per community reports)
+- **AI in Research**: a transportation-engineering LoRA fine-tuning paper and a survey on how researchers validate AI-generated code
+- **Community Views**: two Hacker News launch-discussion threads (Gemini 4 Argon, DeepSeek V4.1 Flash) with praise/criticism noted neutrally
+
+Updated `automation/ai-watch-state.json` with the 12 reported URLs across all five arrays so tomorrow's scan skips these. No notification sent, per instructions — the shell runner handles that.
+AI Watch digest ready: /Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/ai-watch-digests/2026-10-14.md

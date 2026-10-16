@@ -1,0 +1,9 @@
+Scan complete. Digest written to `automation/digests/2026-10-10.md`, `state.json` updated, and a notification sent.
+
+Summary of 11 new items found:
+- **Faculty (5):** UNL, Missouri S&T, TCNJ, Marquette (verify still open), and a new Georgia Tech CEE TSE-specific search (Job 304458, distinct from the one already logged in your wiki).
+- **Conferences (1):** TRB 2027 Annual Meeting paper submission window (opens July 1, closes Aug 1, 2027).
+- **Journals (2):** TR Part D "AI-Driven Transportation Resilience under Disasters" (deadline Feb 12, 2027), and a tri-continental "Informal and Shared Mobility" special issue tied to a Bangkok conference in ~2 weeks — flagged as time-sensitive, deadline unconfirmed.
+- **Companies (3):** Two Waymo research scientist roles (simulation) and one Aurora behavior-planning ML lead role.
+
+Note: MIT CEE had nothing new (last search's deadline already passed); WCTR 2026, ISTTT26, and ITSC 2026 were excluded as already past/expired given today's date.
