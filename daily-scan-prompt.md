@@ -9,7 +9,7 @@ Working directory is the Obsidian vault root (`05 Career/`). All paths below are
 2. Web search across these 6 categories. For each, only care about items that are NEW (not already in the matching `state.json` array) and still relevant (deadlines not already passed, postings not expired/closed).
 
    - **faculty**: Assistant/tenure-track professor openings in Transportation Engineering / Civil & Environmental Engineering with a transportation focus, at US universities. Search HigherEdJobs, AcademicKeys, Chronicle of Higher Ed, and general web search ("transportation engineering assistant professor 2026" / "2027" / "tenure-track"). Also specifically check Georgia Tech CEE and MIT CEE (already tracked in `wiki/inst-georgia-tech.md` and `wiki/inst-mit.md` — read those two files first so you don't re-report what's already logged there).
-   - **conferences**: Upcoming submission deadlines / calls for papers for TRB Annual Meeting, ISTTT, WCTR, IEEE ITSC, and other major transportation research conferences. Only include ones whose deadline is still in the future.
+   - **conferences**: Upcoming submission deadlines / calls for papers for TRB Annual Meeting, ISTTT, WCTR, IEEE ITSC, and other major transportation research conferences. Only include ones whose deadline is still in the future. Check these sources on every run for new or changed calls: UCLA Institute of Transportation Studies' [Pacific Coast Transportation Workshop](https://its.ucla.edu/tribe-event/pacific-coast-transportation-workshop-2027/) and the [Modeling Mobility Conference](https://modelingmobility.org/) (including its current-year conference and submission pages). The workshop and conference may have adjacent dates and distinct submission deadlines; track them as separate opportunities.
    - **journals**: Call-for-papers for special issues in Transportation Research Part A/B/C/D/E/F, Transportmetrica A/B, Journal of Transport Geography, and similar journals, relevant to: CAV, AI/ML in transportation, equity, shared mobility, resilience/climate, electrification (these are the candidate's research hot topics, per `wiki/analysis-hot-topics-2026.md` — read it first for the exact list).
    - **companies**: New job postings at Waymo, Tesla, Uber, Google Maps/Waymo Research, Cruise, Aurora Innovation (and similar transportation/autonomous-vehicle companies) for roles a transportation-engineering PhD would qualify for: research scientist, applied scientist, research engineer, traffic/mobility modeling, AV planning & simulation. Skip generic SWE roles unrelated to transportation/AI research.
 
@@ -54,6 +54,18 @@ Working directory is the Obsidian vault root (`05 Career/`). All paths below are
    ## Company Job Postings
    - [<title>, <company>](<url>) — <one-line note>
    ```
+
+   **Key info line (required under every linked item).** Directly below each linked bullet, add one indented sub-bullet that starts with `Key info:` and lists facts as `Label: value` pairs separated by ` | `. The candidate keeps these summaries after the posting's link goes dead, so include every fact the source states and write `not listed` when it does not state one. Never guess a salary.
+   - Jobs (faculty, postdoc, research_inst, companies): `Topics` (research areas sought) | `Rank/Type` (e.g. Assistant Prof TT, Postdoc 2-yr, Research Scientist II) | `Salary` (range as stated) | `Location` | `Start` | `Requirements` (degree, key skills) | `Materials` (what the application asks for) | `Contact/PI`
+   - Conferences and journal CFPs: `Topics` | `Venue/Dates` | `Format` (full paper, abstract, page limit) | `Deadline` | `Fees/Notes`
+
+   Example:
+   ```markdown
+   - [Assistant Professor, Transportation, Univ. of X](https://...) — CAV + data science focus. Deadline: Dec 1, 2026
+     - Key info: Topics: CAV, traffic data science | Rank/Type: Assistant Prof, TT | Salary: not listed | Location: Austin, TX | Start: Aug 2027 | Requirements: PhD in CE or related by start | Materials: CV, research + teaching statements, 3 references | Contact/PI: search chair Prof. Y
+   ```
+
+   Status notes (what you checked, what was closed or skipped) go as plain bullets without a link at the end of a section; the dashboard folds them into a collapsed "Scan notes" box.
 
    If a category has nothing new, write "No new items today." under that heading instead of an empty list. If literally nothing new was found across all 6 categories, still write the file (all six sections say "No new items today.") so there's a record the scan ran.
 

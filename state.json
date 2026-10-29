@@ -9,20 +9,31 @@
     "https://careers.insidehighered.com/job/3553088/assistant-professor-civil-engineering/",
     "https://employment.marquette.edu/postings/23696",
     "https://careers.insidehighered.com/job/3559016/multiple-tenure-track-faculty-positions-in-civil-and-environmental-engineering/",
-    "https://gsso.ce.gatech.edu/?p=7961"
+    "https://gsso.ce.gatech.edu/?p=7961",
+    "https://explore.jobs.ufl.edu/cw/en-us/job/537449/assistantassociatefull-professor-engineering-school-of-sustainability-infrastructure-environment",
+    "https://careers.awra.org/jobs/21829177/assistant-professor-transportation-engineering",
+    "https://faculty-searches.mit.edu/soe/cee-idss/",
+    "https://trine.edu/human-resources/careers/assistant-associate-professor-civil-engineering.aspx"
   ],
   "postdoc": [
     "https://explore.jobs.ufl.edu/cw/en-us/job/541701/postdoctoral-associate-in-transportation-systems-safety-and-human-factors",
     "https://app.joinhandshake.com/jobs/7133770/share_preview",
     "https://www.ziprecruiter.com/Jobs/Postdoctoral-Autonomous-Vehicle",
-    "https://climatechangejobs.com/jobs/49680935-postdoctoral-researcher-multi-resolution-transportation-and-energy-modeling"
+    "https://climatechangejobs.com/jobs/49680935-postdoctoral-researcher-multi-resolution-transportation-and-energy-modeling",
+    "https://us.joinrise.co/jobs/tamus-postdoctoral-research-associate-mxbw",
+    "https://ieor.berkeley.edu/jobs/postdoctoral-research-associate-advanced-mobility-and-vehicle-systems-research-at-oak-ridge-national-laboratory/",
+    "https://efutures.ucdavis.edu/news/available-position-postdoc-researcher-its-davis-energy-futures-program"
   ],
   "research_inst": [
     "https://careers.umich.edu/node/278715",
     "https://jobs.ornl.gov/job/Knoxville-Postdoctoral-Research-Associate-in-AI-Enabled-Connected-Vehicles-and-Smart-Mobility-Systems-TN-37923/1439640900/",
     "https://4dayweek.io/job/randd-associate-staff-applied-research-for-mobility-systems-at-oak-ridge-national-laboratory-474b2d5e",
     "https://postdocjobs.com/posting/7368398",
-    "https://postdocjobs.com/posting/7122716"
+    "https://postdocjobs.com/posting/7122716",
+    "https://xtalks.com/job/transportation-research-scientist-career-track",
+    "https://illinoisjoblink.illinois.gov/jobs/11739140",
+    "https://illinoisjoblink.illinois.gov/jobs/12021842",
+    "https://catechnologies.dejobs.org/ai-researcher-autonomous-vehicles/jobs-in/the-mitre-corporation/careers/"
   ],
   "conferences": [
     "https://ieee-iv.org/2027/contributions/",
@@ -30,7 +41,12 @@
     "https://www.isttt2028.org/",
     "https://ieee-itsc.org/2027/",
     "https://galgos.inf.puc-rio.br/tristan2028/",
-    "https://trb.secure-platform.com/a/page/TRBPaperReview"
+    "https://trb.secure-platform.com/a/page/TRBPaperReview",
+    "https://modelingmobility.org/",
+    "https://easychair.org/cfp/ABMTrans-2027",
+    "https://www.ieeemobility.org/call-for-papers.html",
+    "https://its.ucla.edu/tribe-event/pacific-coast-transportation-workshop-2027/",
+    "https://www.ieeemobility.org/submission.html"
   ],
   "journals": [
     "https://www.sciencedirect.com/special-issue/327417/special-issue-in-memory-of-professor-hani-mahmassani",
@@ -39,7 +55,10 @@
     "https://servicesetu.org/call-for-paper/journals/trte",
     "https://vref.se/other/2026/new-call-for-papers-on-informal-and-shared-mobility/",
     "https://servicesetu.org/call-for-paper/journals/trm",
-    "https://think.taylorandfrancis.com/special_issues/equity-accessibility-social-impacts-emerging-urban-mobility-systems/"
+    "https://think.taylorandfrancis.com/special_issues/equity-accessibility-social-impacts-emerging-urban-mobility-systems/",
+    "https://giitral.iingen.unam.mx/Eventos/contralog2025/formatos/Special_issue_LATS-VF.pdf",
+    "https://ojs.wiserpub.com/index.php/EST/announcement/view/574",
+    "https://www.keaipublishing.com/en/journals/autonomous-transportation-research/call-for-papers/special-issue-on-connected-and-automated-transportation-systems-for-safe-sustainable-and-resilient-mobility/"
   ],
   "companies": [
     "https://freehire.me/jobs/machine-learning-engineer-applied-scientist-prediction-planning-waymo-47jmwjli",
@@ -50,6 +69,17 @@
     "https://startup.jobs/senior-research-scientist-sensor-simulation-waymo-7909468",
     "https://startup.jobs/machine-learning-engineering-tl-behavior-planning-aurora-innovation-7610254",
     "https://zerogtalent.com/frontier-jobs/waymo/research-scientist-rl-for-autonomous-planning-world-modeling-7469425",
-    "https://startup.jobs/applied-researcher-aurora-innovation-7999198"
+    "https://startup.jobs/applied-researcher-aurora-innovation-7999198",
+    "https://zerogtalent.com/frontier-jobs/waymo/research-scientist-prediction-planning-7309064",
+    "https://swooped.co/job-postings/applied-researcher-seattle-aurora-9fa7c",
+    "https://jobs.spacetalent.org/companies/waymo/jobs/64233542-senior-research-scientist-foundation-model-vlm-llm",
+    "https://www.builtinseattle.com/job/applied-researcher/10791433",
+    "https://careers.withwaymo.com/jobs/research-scientist-world-model-post-training-mountain-view-california-united-states-new-york-city-new-york-san-francisco",
+    "https://careers.withwaymo.com/jobs/senior-research-scientist-perception-kirkland-washington-united-states-mountain-view-california-new-york-city-new-york-san-francisco",
+    "https://careers.withwaymo.com/jobs/staff-research-scientist-perception-mountain-view-california-united-states-new-york-city-new-york-kirkland-washington-san-francisco",
+    "https://careers.withwaymo.com/jobs/research-scientist-map-scalability-mountain-view-california-united-states-new-york-city-new-york-san-francisco",
+    "https://careers.withwaymo.com/jobs/senior-research-scientist-ai-foundations-recipes-oxford-england-united-kingdom-london",
+    "https://careers.withwaymo.com/jobs/staff-research-scientist-foundation-models-recipes-kirkland-washington-united-states-mountain-view-california-san-francisco",
+    "https://www.themuse.com/jobs/uber/scientist-ii-mobility-matching-science"
   ]
 }

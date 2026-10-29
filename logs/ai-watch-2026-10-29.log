@@ -1,0 +1,11 @@
+State file is valid JSON and updated correctly, with no duplicates.
+
+The digest for 2026-10-29 is written to `automation/ai-watch-digests/2026-10-29.md`. Highlights:
+
+- **Model Releases**: Google officially shipped Gemini 4 Carbon (Oct 28, cybersecurity/long-horizon agentic focus, limited rollout); OpenAI's GPT-6.1 Terra (Oct 26, cheaper/faster computer-use agent model) — previously missed by the Oct 27 digest.
+- **Performance**: Gemini 4 Carbon took #1 on the Artificial Analysis Intelligence Index (59, vs. Opus 5.5's prior 58); Arena's Agent leaderboard was readable for the first time (previously 403'd) — Claude Opus 5.5 leads.
+- **Local LLMs**: LiquidAI's LFM3-1.7B edge-focused multimodal family (LFM Open License, ~1GB RAM at 4-bit).
+- **AI in Research**: Anthropic's drug-development case studies with six partners — real tasks and metrics, but self-reported and preclinical.
+- **Leaders**: nothing new and well-sourced in the window, so marked "No new items today."
+- **Community**: Two substantive, same-day HN threads — reception of Gemini 4 Carbon (965 pts) and a live dispute over Claude Code's undisclosed background-agent token costs (475 pts, with an Anthropic engineer responding).
+AI Watch digest ready: /Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/ai-watch-digests/2026-10-29.md

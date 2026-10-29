@@ -1,0 +1,17 @@
+I'll stand by for the fork completion notifications before writing the digest and updating the state file.
+
+AV research fork is back with 3 verified items. Waiting on the remaining three forks (Maps/Traffic Data, Rideshare/Policy, Research Evidence) before assembling the digest.
+
+Rideshare/Policy fork done — one new item (Lyft's Alcove chauffeuring brand), no new Policy items. Still waiting on Maps/Traffic Data and Research Evidence.
+
+Maps/Traffic Data fork done — HERE Technologies AWS integration, Overture Maps schema rebuild, and INRIX curb management data. Now waiting on the Research Evidence fork — the final and most important piece.
+
+Done. Today's digest is written to `automation/transport-news-digests/2026-10-29.md` and the state file is updated with 7 new URLs.
+
+Summary of new items since the last scan (2026-10-27):
+- **AV**: Waymo expanded to 5 more metro areas (~250 sq mi); reported plans to grow fleet 4,000→20,000 by end-2027; Aurora's Q3 10-Q shows revenue inching up ($1M→$3M) but losses widening ($234M).
+- **Maps**: HERE expanded its Location Reasoning AI/MCP service via AWS.
+- **Traffic Data**: Overture Maps rebuilt its schema as code-generated; INRIX published curb-management data claims.
+- **Rideshare**: Lyft launched "Alcove," a global chauffeur brand.
+- **Policy & Safety** and **Research Evidence**: no new verifiable items this cycle (the Research Evidence fork checked Crossref, arXiv, Waymo Research, and Google Research/Mobility AI extensively but found nothing meeting the empirical-data bar).
+Transportation News digest ready: /Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/transport-news-digests/2026-10-29.md

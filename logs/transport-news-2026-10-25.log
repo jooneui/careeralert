@@ -1,0 +1,9 @@
+The JSON is valid and well-formed.
+
+Today's digest (`automation/transport-news-digests/2026-10-25.md`) is written and the state file updated. Note: Bash access is fully disabled in this session, so I did all research via WebFetch/WebSearch and used Read/Edit for file verification instead of shell commands.
+
+Summary of today's scan:
+- **Autonomous Vehicles**: 3 new items — Kodiak AI's 64-day driverless uptime record and its new Dallas–Laredo autonomous freight lane with Charger USA (96% safety-case readiness), plus Baidu Apollo Go's RT6 robotaxi unveiling in London with Freenow.
+- **Maps, Traffic Data, Ride-hailing, Policy**: no qualifying new items since yesterday's scan — checked primary sources (Mapbox, Overture, Uber/Lyft newsrooms, NHTSA, CPUC) directly and found nothing new or already covered.
+- **Research Evidence**: one new arXiv preprint (not peer-reviewed) using real NGSIM/highD/exiD/Shanghai/Waymo trajectory data to discover an interpretable car-following law, cutting spacing-prediction RMSE by 9–22% vs. baselines.
+Transportation News digest ready: /Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/transport-news-digests/2026-10-25.md

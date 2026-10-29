@@ -1,0 +1,11 @@
+Done. Today's digest (`automation/ai-watch-digests/2026-10-24.md`) covers:
+
+- **Model Releases**: Moonshot AI's Kimi K3.1 Pro / Highspeed (post-trained Kimi K3, open weights due 2026-11-04).
+- **Performance**: Kimi K3.1 Pro newly entered Artificial Analysis's top 5; Claude Opus 5.5 still #1, unchanged.
+- **Local LLMs**: nothing new (K3.1 Pro's weights aren't out yet, so not yet locally runnable).
+- **AI in Research**: TorrentFreak's investigation into a published paper with AI-fabricated citations (including a nonexistent TorrentFreak article).
+- **Leaders**: Jack Clark's Import AI #477, declaring "the singularity is here" at the IMF's Per Jacobsson lecture, with the $44T-by-2030 GDP scenario and a noted tension with his own "humans still control AI" caveat.
+- **Community Views**: HN threads on Kimi K3.1 Pro (praise for price/speed, criticism of quota limits and model self-identification) and on the fabricated-citation paper (debate over AI-assisted literature review reliability).
+
+State file updated with the six new URLs; no edits made to other digests, raw/, or wiki/.
+AI Watch digest ready: /Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/ai-watch-digests/2026-10-24.md

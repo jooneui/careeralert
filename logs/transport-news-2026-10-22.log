@@ -1,0 +1,6 @@
+That tool was for /loop mode, not applicable here — I'll just wait for the background forks' completion notifications normally.
+
+Done. Wrote `automation/transport-news-digests/2026-10-22.md` with 12 verified items across all five sections (5 AV, 3 Maps, 1 Traffic Data, 1 Ride-hailing, 2 Policy), and appended all 12 URLs to `automation/transport-news-state.json` for dedup on the next run.
+
+Highlights: Waymo's $5B debt raise plus new Toronto and Madrid launches, a fresh 270M-mile Waymo safety dataset, Mapbox's Traffic 2.0 and GL JS perf overhaul, TomTom's Q3 restructuring, Overture Maps' latest data drop, Lyft/Waymo's new Nashville depot, and two new NHTSA/FMCSA regulatory actions on Tesla Robotaxi and driverless trucks.
+Transportation News digest ready: /Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/transport-news-digests/2026-10-22.md

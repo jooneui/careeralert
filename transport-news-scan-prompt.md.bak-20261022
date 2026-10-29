@@ -1,0 +1,38 @@
+You are running the daily Transportation News scan for a transportation engineering PhD researcher (CAV, AI/ML for transportation, shared mobility, traffic data). The digest feeds the Transportation News tab of a local HTML dashboard. Nobody is watching interactively. Use today's actual local date and finish without asking questions.
+
+Working directory: `05 Career/`. Read `automation/transport-news-state.json` first. It has arrays named `av`, `maps`, `tdata`, `rideshare`, and `policy`; each contains URLs already reported. If absent or invalid, initialize those arrays. Read the latest prior `automation/transport-news-digests/*.md` so you do not repeat a story under a different URL.
+
+Search for **new developments since the last scan** (on the first run, the past ~2 weeks). The goal is to show where the technology and industry stand now. Cover these five sections:
+
+1. **Autonomous Vehicles**: deployment status, service-area expansions, fleet size, new cities, safety reports, technical posts and research from Waymo, Tesla (FSD / Robotaxi), Zoox, Aurora, Kodiak, May Mobility, Nuro, Wayve, Mobileye, Baidu Apollo Go, Pony.ai, WeRide, and comparable companies. Check each company's own blog or newsroom first (e.g. waymo.com/blog, aurora.tech/newsroom, zoox.com/journal).
+2. **Maps & Navigation**: product and technical updates from Google Maps (blog.google/products/maps), Apple Maps, Waze, HERE, TomTom, and Mapbox: routing, traffic prediction, lane-level maps, AI features, EV routing.
+3. **Traffic Data & Open Data**: OpenStreetMap (OSM Foundation blog, OSM Weekly), Overture Maps Foundation, INRIX, StreetLight Data, Replica, Iteris, and public open-data releases (e.g. USDOT, FHWA, NHTSA datasets). Note what the data covers and who can access it.
+4. **Ride-hailing & Shared Mobility**: Uber (uber.com/newsroom, Uber Engineering blog), Lyft (lyft.com/blog, Lyft Engineering), DiDi, Lime, Via, and Bolt: AV partnerships, pricing/matching research, quarterly results that reveal ridership trends, micromobility.
+5. **Policy & Safety**: regulation and safety events that change what these companies can do: NHTSA (standing general order crash data, investigations, exemptions), California DMV / CPUC AV permits, state laws, USDOT and FHWA guidance, and major non-US AV rules.
+
+Prefer primary sources: company blog, engineering blog, newsroom, regulator page, or filing. Use a reputable news outlet only when the company has not posted, and say so. Open each linked page and confirm it supports every specific claim (dates, numbers, cities, features). A search snippet is not enough. Skip press-release rewrites, stock-tip articles, and items older than about a month. Use a handful of targeted searches per section. Skip items already in the matching state array.
+
+Write `automation/transport-news-digests/<YYYY-MM-DD>.md` with exactly these headings and one-line linked bullets:
+
+```
+# Transportation News — <YYYY-MM-DD>
+
+## Autonomous Vehicles
+- [Specific headline](https://source.example/item) — Source: company blog/regulator/outlet; published YYYY-MM-DD. What happened, the concrete numbers, and why it matters for the state of the technology.
+
+## Maps & Navigation
+- [Specific headline](https://source.example/item) — Source: ...; published YYYY-MM-DD. What changed and why it matters.
+
+## Traffic Data & Open Data
+- [Specific headline](https://source.example/item) — Source: ...; published YYYY-MM-DD. What the data or tool covers, who can access it, and possible research use.
+
+## Ride-hailing & Shared Mobility
+- [Specific headline](https://source.example/item) — Source: ...; published YYYY-MM-DD. What happened and why it matters.
+
+## Policy & Safety
+- [Specific headline](https://source.example/item) — Source: ...; published YYYY-MM-DD. What the rule, investigation, or data release says and who it affects.
+```
+
+All URLs must be `https://` links to the original item. Keep each bullet to one line so the HTML builder can parse it. Do not place Markdown links inside a note after the first link. When a section has no new items, write `No new items today.` under it. Write the file even when all sections have no new items.
+
+Update `automation/transport-news-state.json` by appending only the reported URLs to the matching arrays, with no duplicates. Do not edit the career or AI Watch digests, `raw/`, or `wiki/`. Do not send a notification; the shell runner sends one after building the dashboard.

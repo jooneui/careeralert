@@ -1,0 +1,53 @@
+{
+  "av": [
+    "https://waymo.com/blog/2026/10/waymo-closes-5-billion-debt-financing",
+    "https://waymo.com/blog/2026/10/waymo-in-toronto",
+    "https://waymo.com/blog/2026/10/waymo-in-madrid-region",
+    "https://waymo.com/blog/shorts/safetydata-september26/",
+    "https://www.automotiveworld.com/news/mercedes-benz-signs-production-deal-for-wayve-ai-driver/",
+    "https://waymo.com/blog/shorts/las-airport/",
+    "https://waymo.com/blog/shorts/sat-sd-tpa/",
+    "https://waymo.com/blog/shorts/silver-ojai/",
+    "https://www.teslaoracle.com/2026/10/23/tesla-expands-cybercab-robotaxi-austin-geofence-ahead-of-2026-us-grand-prix/",
+    "https://www.mobileye.com/news/mobileye-tuev-sued-aeb/",
+    "https://kodiak.ai/news/kodiak-driver-uptime-record",
+    "https://kodiak.ai/news/kodiak-charger-usa-autonomous-trucking-dallas-laredo",
+    "https://www.asiaone.com/world/chinas-baidu-tests-robotaxi-london-streets",
+    "https://waymo.com/blog/shorts/more-places/",
+    "https://www.gvwire.com/2026/10/19/waymo-plans-to-quintuple-fleet-to-20000-semafor-reports/",
+    "https://www.sec.gov/Archives/edgar/data/0001828108/000182810826000094/aur-20260930.htm"
+  ],
+  "maps": [
+    "https://www.mapbox.com/blog/mapbox-gl-js-reduces-bundle-size-by-up-to-27-with-modular-rendering",
+    "https://www.mapbox.com/blog/announcing-mapbox-traffic-2-0",
+    "https://www.tomtom.com/newsroom/press-releases/earnings-other/29691/third-quarter-2026-results/",
+    "https://www.tomtom.com/newsroom/press-releases/general/228849211236765/tomtom-and-deeproute-ai-partner-to-advance-ai-based-automated-driving/",
+    "https://www.tomtom.com/newsroom/press-releases/general/229787857507260/tomtom-expands-ev-suite-to-accelerate-deployment-for-automakers-and-deliver-more-trusted-journeys-for-drivers/",
+    "https://www.mapbox.com/blog/mapbox-geocoding-entrance-data-expands-to-europe",
+    "https://www.here.com/about/press-releases/here-technologies-expands-access-to-here-location-reasoning-hlr-delivering-geospatial-intelligence-for-real-world-ai-with-aws"
+  ],
+  "tdata": [
+    "https://docs.overturemaps.org/blog/2026/10/21/release-notes/",
+    "https://inrix.com/press-releases/arity-to-acquire-inrix-advancing-a-connected-vision-for-the-future-of-transportation/",
+    "https://inrix.com/blog/inrix-volumes-goes-global-new-coverage-better-accuracy-and-more-insights-across-europe/",
+    "https://docs.overturemaps.org/blog/2026/10/06/cng-workshop/",
+    "https://inrix.com/blog/beyond-the-parking-space-how-technology-is-transforming-curb-management/"
+  ],
+  "rideshare": [
+    "https://www.wsmv.com/2026/10/02/hundreds-self-driving-cars-coming-nashville-with-new-waymo-lyft-facility/",
+    "https://www.lyft.com/blog/posts/lyft-announces-alcove-new-global-chauffeuring-network"
+  ],
+  "policy": [
+    "https://electrek.co/2026/10/12/nhtsa-tesla-robotaxi-school-zone-speeding-petition/",
+    "https://www.thetrucker.com/trucking-news/equipment-tech/fmcsa-clears-way-for-driverless-trucks-to-replace-warning-triangles-with-flashing-beacons"
+  ],
+  "evidence": [
+    "https://doi.org/10.1007/s42421-026-00177-1",
+    "https://doi.org/10.1177/03611981261487420",
+    "https://doi.org/10.32866/001c.172176",
+    "https://doi.org/10.32866/001c.172160",
+    "https://doi.org/10.1007/s42421-026-00180-6",
+    "https://arxiv.org/abs/2610.27836",
+    "https://arxiv.org/abs/2610.08458"
+  ]
+}

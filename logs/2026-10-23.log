@@ -1,0 +1,13 @@
+Fixed — duplicate removed, TCNJ URL now appears once. The `state.json` is well-formed and all six arrays are under the ~500-entry size cap, so no pruning was needed.
+
+**Summary of today's scan (2026-10-23):**
+- **Faculty:** 1 new — TCNJ Assistant Professor, Transportation Engineering (deadline Nov 15, 2026)
+- **Postdoc:** nothing new; checked all 5 named targets (UC Davis, TTI, Volpe, NREL, MIT Senseable City Lab)
+- **Research institutions:** nothing new; everything found was a duplicate or already-closed (ORNL Req 16534 confirmed closed)
+- **Conferences:** 2 new — ABMTrans 2027 (deadline Nov 1, 2026) and IEEE MOST 2027 (deadline Dec 1, 2026)
+- **Journals:** nothing new — the one promising lead turned out to already be tracked
+- **Companies:** 2 unverified leads — a Waymo Senior Research Scientist (VLM/LLM) role and an Aurora Applied Researcher (VLA) role; couldn't confirm live status since both careers portals are JS-rendered and blocked direct fetch
+
+Full digest with sourcing/deadline/salary details is at `automation/digests/2026-10-23.md`.
+econ indicators: 12 fresh, 0 failed
+HTML dashboard -> /Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/career-digest.html (9 digest(s), 65 items, 9 open deadline(s))

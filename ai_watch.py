@@ -1,4 +1,7 @@
-"""Render the AI Watch panel from dated Markdown digests and wiki JSON."""
+"""Render the AI Watch panel from dated Markdown digests and wiki JSON.
+
+parse_feed_digest() and render_feed_history() are shared with transport_news.py.
+"""
 
 import html
 import json
@@ -12,11 +15,13 @@ AUTO_DIR = Path(__file__).resolve().parent
 AI_DIGEST_DIR = AUTO_DIR / "ai-watch-digests"
 WIKI_FILE = AUTO_DIR / "ai-watch-wiki.json"
 
+# (heading in the .md, css/state key, short label)
 SECTIONS = [
     ("Model Releases & Agentic Capabilities", "releases", "Releases"),
     ("Performance & Benchmarks", "performance", "Performance"),
     ("Local LLMs", "local", "Local LLMs"),
     ("AI in Research", "research", "Research"),
+    ("Leaders on AI's Future", "leaders", "Outlook"),
     ("Community Views", "community", "Community"),
 ]
 LINK_RE = re.compile(r"^-\s*\[(?P<title>.+?)\]\((?P<url>https?://[^)]+)\)\s*(?:—|--|-)?\s*(?P<note>.*)$")
@@ -31,9 +36,9 @@ def safe_url(value):
     return value if parsed.scheme in ("http", "https") and parsed.netloc else ""
 
 
-def parse_digest(path):
-    sections = {key: [] for _, key, _ in SECTIONS}
-    heading_to_key = {heading: key for heading, key, _ in SECTIONS}
+def parse_feed_digest(path, sections):
+    out = {key: [] for _, key, _ in sections}
+    heading_to_key = {heading: key for heading, key, _ in sections}
     current = None
     for raw in path.read_text(encoding="utf-8").splitlines():
         line = raw.strip()
@@ -46,12 +51,46 @@ def parse_digest(path):
         if match:
             url = safe_url(match.group("url"))
             if url:
-                sections[current].append({
+                out[current].append({
                     "title": match.group("title"),
                     "url": url,
                     "note": match.group("note").strip(),
                 })
-    return {"date": path.stem, "sections": sections}
+    return {"date": path.stem, "sections": out}
+
+
+def load_feed(digest_dir, sections):
+    files = sorted(digest_dir.glob("????-??-??.md"), reverse=True) if digest_dir.is_dir() else []
+    return [parse_feed_digest(path, sections) for path in files]
+
+
+def render_feed_history(digests, sections, source, heading):
+    out = [f'<h2 class="shead">{esc(heading)}</h2>']
+    if not digests:
+        out.append('<p class="empty">The first scan has not run yet.</p>')
+    for index, digest in enumerate(digests):
+        count = sum(len(v) for v in digest["sections"].values())
+        counts = " · ".join(
+            f"{len(digest['sections'][key])} {label.lower()}"
+            for _, key, label in sections if digest["sections"][key]
+        ) or "no new linked items"
+        out.append(f'<details class="card"{" open" if index == 0 else ""}><summary><span class="date">{esc(digest["date"])}</span><span class="n">{count}</span><span class="counts">{esc(counts)}</span></summary><div class="body">')
+        if not count:
+            out.append('<p class="empty">No new linked items in this scan.</p>')
+        for section_heading, key, label in sections:
+            items = digest["sections"][key]
+            if not items:
+                continue
+            out.append(f'<h3>{esc(section_heading)}</h3><ul class="items">')
+            for item in items:
+                out.append(f'<li class="item"><span class="tag {key}">{esc(label)}</span><a class="t" href="{esc(item["url"])}" target="_blank" rel="noopener">{esc(item["title"])}</a>')
+                out.append(item_controls(source, label, key, item["title"], item["url"], item["note"], digest["date"]))
+                if item["note"]:
+                    out.append(f'<p class="note">{esc(item["note"])}</p>')
+                out.append('</li>')
+            out.append('</ul>')
+        out.append('</div></details>')
+    return "".join(out)
 
 
 def render_wiki():
@@ -79,33 +118,11 @@ def render_wiki():
 
 
 def render():
-    files = sorted(AI_DIGEST_DIR.glob("????-??-??.md"), reverse=True) if AI_DIGEST_DIR.is_dir() else []
-    digests = [parse_digest(path) for path in files]
+    digests = load_feed(AI_DIGEST_DIR, SECTIONS)
     latest = digests[0]["date"] if digests else "not scanned yet"
     total = sum(len(items) for digest in digests for items in digest["sections"].values())
     out = [f'<div class="sub ai-sub">Latest AI scan <strong>{esc(latest)}</strong> · {len(digests)} scan(s) · {total} linked items</div>']
-    out.append('<p class="ai-intro">Model releases, agent benchmarks, locally runnable models, research uses, and public discussion. Performance claims link to their test conditions; community views are labeled as opinions.</p>')
+    out.append('<p class="ai-intro">Model releases, agent benchmarks, locally runnable models, research uses, what AI-company leaders and prominent researchers say about where AI is heading, and public discussion. Performance claims link to their test conditions; leader statements and community views are labeled as opinions.</p>')
     out.append(render_wiki())
-    out.append('<h2 class="shead">AI Scan History</h2>')
-    if not digests:
-        out.append('<p class="empty">The first AI scan has not run yet.</p>')
-    for index, digest in enumerate(digests):
-        count = sum(len(v) for v in digest["sections"].values())
-        counts = " · ".join(f"{len(digest['sections'][key])} {label.lower()}" for _, key, label in SECTIONS if digest["sections"][key]) or "no new linked items"
-        out.append(f'<details class="card"{" open" if index == 0 else ""}><summary><span class="date">{esc(digest["date"])}</span><span class="n">{count}</span><span class="counts">{esc(counts)}</span></summary><div class="body">')
-        if not count:
-            out.append('<p class="empty">No new linked items in this scan.</p>')
-        for heading, key, label in SECTIONS:
-            items = digest["sections"][key]
-            if not items:
-                continue
-            out.append(f'<h3>{esc(heading)}</h3><ul class="items">')
-            for item in items:
-                out.append(f'<li class="item"><span class="tag {key}">{esc(label)}</span><a class="t" href="{esc(item["url"])}" target="_blank" rel="noopener">{esc(item["title"])}</a>')
-                out.append(item_controls("ai", label, key, item["title"], item["url"], item["note"], digest["date"]))
-                if item["note"]:
-                    out.append(f'<p class="note">{esc(item["note"])}</p>')
-                out.append('</li>')
-            out.append('</ul>')
-        out.append('</div></details>')
+    out.append(render_feed_history(digests, SECTIONS, "ai", "AI Scan History"))
     return "".join(out)

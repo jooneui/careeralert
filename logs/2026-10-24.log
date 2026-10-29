@@ -1,0 +1,23 @@
+I've launched 6 background research forks covering all categories (faculty, postdoc, research_inst, conferences, journals, companies). I'll compile the digest and update `state.json` once their results come back.
+
+2 of 6 scans complete (conferences, postdoc — both with no new verified items). Waiting on faculty, research_inst, journals, and companies.
+
+Faculty scan done — found 1 new MIT CEE/IDSS joint search posting (deadline Dec 1, 2026). Waiting on research_inst, journals, and companies.
+
+Journals scan done — 2 new CFPs found. Still waiting on research_inst and companies.
+
+Companies scan done — 1 new Waymo research scientist posting found. Waiting on research_inst (the last one).
+
+Valid JSON, all arrays well under the size cap. Today's scan is complete.
+
+**Summary — 2026-10-24 digest** (`automation/digests/2026-10-24.md`):
+- **Faculty:** 1 new — MIT CEE/IDSS joint TT search (deadline Dec 1, 2026)
+- **Postdoc:** none new (several target portals unreachable — UC Davis, Volpe return 403; NREL, TTI DNS failures)
+- **Research institutions:** 1 new, unverified — MITRE "AI Researcher – Autonomous Vehicles"
+- **Conferences:** 1 new — Pacific Coast Transportation Workshop 2027 (Dec 1, 2026, unconfirmed on recheck)
+- **Journals:** 1 new — EST special issue on AI in Transportation Systems (deadline Apr 20, 2027)
+- **Companies:** 1 new, verified — Waymo "Research Scientist, World Model Post-Training"
+
+`state.json` updated with all 5 reported URLs (MITRE research_inst item marked unverified in the digest, not excluded from state). Full scan notes and sources checked (including unreachable portals) are documented in the digest.
+econ indicators: 12 fresh, 0 failed
+HTML dashboard -> /Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/career-digest.html (10 digest(s), 70 items, 9 open deadline(s))

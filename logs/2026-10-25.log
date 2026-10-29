@@ -1,0 +1,7 @@
+The edit is well-formed and the structure is intact. The scan is complete.
+
+**Digest written to `automation/digests/2026-10-25.md`.** Summary: found one genuinely new, verified item — a rolling Assistant/Associate Professor (Transportation) TT opening at Trine University — and added it to `state.json`. All other categories (postdoc, research institution, conferences, journals, companies) turned up nothing new after checking the named targets and sources; most leads were already-tracked postings resurfacing under aggregator mirrors, expired/stale listings, or out-of-scope roles (non-TT, non-US, intern-level). Scan notes documenting what was checked and what couldn't be verified (e.g., 403s on ITS-Davis and ORNL portals) are logged under each "no new items" section per the digest format.
+
+Note: a Bash validation command I tried to run (`python3 -I -c "import json..."` to confirm `state.json` is valid JSON) was blocked since this session has no approval surface — I instead visually re-read the file to confirm the edit is well-formed.
+econ indicators: 12 fresh, 0 failed
+HTML dashboard -> /Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/career-digest.html (11 digest(s), 71 items, 9 open deadline(s))

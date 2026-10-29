@@ -1,0 +1,10 @@
+JSON is well-formed and both new entries are in place. Arrays are well under the 500-entry size cap, so no pruning needed.
+
+I was not able to run the dashboard-rebuild step via Bash this run (sandbox auto-denied the permission prompt, with no approval surface available) — the digest and state files are written, but the shell runner (or you) will need to trigger the dashboard rebuild and completion notification separately.
+
+**Summary of today's scan (2026-10-27):**
+- **New items found:** IEEE MOST 2027 conference (Cal Poly Pomona, Apr 4–7, 2027; CFP deadline Dec 1, 2026) and a KeAi *Autonomous Transportation Research* special issue on Connected & Automated Mobility (first submission expected Dec 15, 2026).
+- **No new items:** faculty, postdoc, research institution, or company postings — most leads either matched items already tracked, were stale/closed on verification, or came from portals that returned 403/DNS errors (ITS-Davis, Volpe, NREL careers, TTI Workday) and couldn't be confirmed.
+- Full details and verification notes are in `automation/digests/2026-10-27.md`; `automation/state.json` updated with the two new IDs.
+econ indicators: 12 fresh, 0 failed
+HTML dashboard -> /Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/career-digest.html (13 digest(s), 79 items, 9 open deadline(s))

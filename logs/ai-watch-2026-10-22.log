@@ -1,0 +1,11 @@
+JSON is well-formed and correctly updated.
+
+The digest `automation/ai-watch-digests/2026-10-22.md` is written and the state file updated. Summary of today's scan:
+
+- **Model Releases**: Claude Duet (Anthropic's new proactive-agent app, research preview, Oct 21) and Voxtral 3 (Mistral's new speech model family + real-time voice-agent SDK, Oct 20).
+- **Performance**: Artificial Analysis Intelligence Index snapshot now shows Claude Opus 5.5 leading the overall leaderboard at 58 — noted that this is the all-model index, not the open-weight-only cut from the last digest, so not directly comparable to it. Arena's text leaderboard was still 403-blocked, same as last time, so I didn't re-report it.
+- **Local LLMs / AI in Research**: nothing new and verifiable surfaced in the window since yesterday's scan — marked "No new items today."
+- **Community Views**: three HN threads — the Claude Duet launch discussion, the "WorldTUI" terminal-simulating model project, and a debate over using LLMs for confidence scoring (ties into agentic-workflow reliability).
+
+One thing worth flagging: search-engine results for very recent items were thin/noisy (lots of low-quality aggregators with conflicting SWE-bench numbers, e.g. 96% vs 79.2% vs 96.4% from different third parties), so I deliberately omitted SWE-bench from today's digest rather than assert an unverified score.
+AI Watch digest ready: /Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/ai-watch-digests/2026-10-22.md

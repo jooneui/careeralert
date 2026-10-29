@@ -31,20 +31,28 @@ if [[ ! -s "$DIGEST_FILE" ]] || (( $(stat -f %m "$DIGEST_FILE") < SCAN_STARTED )
   exit 1
 fi
 
-# Keep the AI feed separate so an AI source failure does not discard a
-# successful career scan. Its latest successful digest stays visible.
-AI_SCAN_STATUS=0
-/bin/zsh "$VAULT_DIR/automation/run-ai-watch.sh" >> "$LOG_FILE" 2>&1 || AI_SCAN_STATUS=$?
-if [[ $AI_SCAN_STATUS -ne 0 ]]; then
-  echo "WARNING: AI Watch scan exited $AI_SCAN_STATUS; showing its last successful digest" >> "$LOG_FILE"
-fi
+# The other feeds run independently: a failure keeps that feed's last digest
+# visible and is named in the notification, but never discards the career scan.
+FAILED=()
+run_feed() {
+  local name="$1"; shift
+  "$@" >> "$LOG_FILE" 2>&1 || {
+    echo "WARNING: $name exited $?; showing its last successful data" >> "$LOG_FILE"
+    FAILED+=("$name")
+  }
+}
+run_feed "AI Watch" /bin/zsh "$VAULT_DIR/automation/run-ai-watch.sh"
+run_feed "Transportation News" /bin/zsh "$VAULT_DIR/automation/run-transport-news.sh"
+run_feed "Economy indicators" /usr/bin/python3 "$VAULT_DIR/automation/econ_indicators.py" fetch
+run_feed "Economy news" /bin/zsh "$VAULT_DIR/automation/run-econ-news.sh"
 
 # Rebuild the browsable HTML dashboard from all digests (deterministic, no network).
 /usr/bin/python3 "$VAULT_DIR/automation/build-digest-html.py" >> "$LOG_FILE" 2>&1
 
 # Send one daily completion notification, including days with no new items.
-if [[ $AI_SCAN_STATUS -eq 0 ]]; then
-  /usr/bin/osascript -e 'display notification "Career and AI scans complete; open Career Alerts for results" with title "Career Alerts"' >> "$LOG_FILE" 2>&1 || echo "WARNING: notification could not be sent" >> "$LOG_FILE"
+if (( ${#FAILED} == 0 )); then
+  NOTICE="All scans complete; open Career Alerts for results"
 else
-  /usr/bin/osascript -e 'display notification "Career scan complete; AI Watch needs attention" with title "Career Alerts"' >> "$LOG_FILE" 2>&1 || echo "WARNING: notification could not be sent" >> "$LOG_FILE"
+  NOTICE="Career scan complete; needs attention: ${(j:, :)FAILED}"
 fi
+/usr/bin/osascript -e "display notification \"$NOTICE\" with title \"Career Alerts\"" >> "$LOG_FILE" 2>&1 || echo "WARNING: notification could not be sent" >> "$LOG_FILE"

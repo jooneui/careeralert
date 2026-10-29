@@ -1,0 +1,5 @@
+JSON structure is well-formed and all arrays are under the ~500-entry threshold, so no pruning was needed.
+
+Today's scan is done. Summary: the digest at `automation/digests/2026-10-26.md` logged 6 new items, all in Company Job Postings — 5 new Waymo research-scientist roles (Perception, Map Scalability, AI Foundations/Foundation Models Recipes) and one Uber mobility-matching-science role (flagged unverified, aggregator-only). Faculty, postdoc, research institution, conference, and journal categories had nothing genuinely new with a live deadline this cycle — mostly already-tracked postings, closed/expired deadlines, or portals that are JS-rendered and unreachable (TTI's Workday site, NREL's careers portal, ScienceDirect's call-for-papers pages, which returned 403). Also confirmed Cruise's robotaxi unit is defunct (GM shut it down in Dec 2024) — will exclude it from future company scans. `state.json` has been updated with the 6 new URLs.
+econ indicators: 12 fresh, 0 failed
+HTML dashboard -> /Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/career-digest.html (12 digest(s), 77 items, 9 open deadline(s))

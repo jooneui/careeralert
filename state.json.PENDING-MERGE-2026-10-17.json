@@ -1,0 +1,18 @@
+{
+  "_note": "state.json was unreadable (EDEADLK) during the 2026-10-17 automation run and was NOT overwritten. These are the new item IDs/URLs reported in automation/digests/2026-10-17.md that still need to be merged into the real automation/state.json arrays once it is readable again. Delete this file after merging.",
+  "faculty": [
+    "https://jobs.uc.edu/job/AssistantAssociateFull-Professor%2C-Transportation-Engineering-and-Systems/102622-en_US"
+  ],
+  "postdoc": [],
+  "research_inst": [
+    "https://4dayweek.io/job/randd-associate-staff-applied-research-for-mobility-systems-at-oak-ridge-national-laboratory-474b2d5e"
+  ],
+  "conferences": [],
+  "journals": [
+    "https://www.sciencedirect.com/special-issue/333141/ai-driven-modelling-and-en-hancement-for-transportation-re-silience-under-disasters"
+  ],
+  "companies": [
+    "https://careers.withwaymo.com/jobs/research-scientist-world-model-post-training-mountain-view-california-united-states-new-york-city-new-york-san-francisco",
+    "https://careers.withwaymo.com/jobs/machine-learning-engineer-applied-scientist-prediction-planning-mountain-view-california-united-states-san-francisco"
+  ]
+}

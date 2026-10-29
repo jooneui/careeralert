@@ -1,0 +1,11 @@
+Done. Wrote `automation/econ-news-digests/2026-10-23.md` covering the past ~week (first run) and updated `automation/econ-news-state.json` with the 12 reported URLs.
+
+Highlights:
+- **Central Banks**: Fed's Sept 16 hike to 3.75–4.00% (minutes), Cleveland Fed's Hammack pushing for more tightening, BOK's Oct 22 hold at 3.00%.
+- **Inflation & Jobs**: Hot September CPI (3.7% y/y, core 2.6%) and a weak September jobs report (+29K, unemployment 4.2%).
+- **Markets**: Stocks/yields/dollar swinging hard on the CPI surprise; gold slipping as oil-driven inflation worries build into the Oct 27–28 FOMC meeting.
+- **Global**: Korea's record chip-driven export surge, China's 4.5% Q3 GDP beat, and a KOSPI circuit breaker triggered by the same inflation-driven chip selloff.
+- **Outlook**: Goldman Sachs pushed its Fed hike call to December; IMF's October WEO sees 3.1% global growth in 2026 with elevated risks.
+
+All items were confirmed against primary/reputable sources (federalreserve.gov, bls.gov, imf.org, Reuters, Yonhap/Korea Times, China Daily, Seoul Economic Daily) via direct page fetches, not just search snippets.
+Economy digest ready: /Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/econ-news-digests/2026-10-23.md

@@ -1,0 +1,19 @@
+Scan complete for 2026-10-28. Across all six categories (faculty, postdoc, research institution, conferences, journals, companies), nothing qualified as genuinely new, open, and not already tracked — most leads were duplicates of items already in `state.json` (now confirmed as official-domain URLs, e.g. several Waymo roles), closed postings (ORNL, Volpe GS-14 roles, Uber Staff Scientist role), or journal CFPs with deadlines already past. The digest at `automation/digests/2026-10-28.md` documents this with detailed scan notes per category, including two unreachable portals (NREL DNS failure, ITS-Davis 403). `state.json` is unchanged since no new URLs needed to be appended.
+WARNING: AI Watch exited 1; showing its last successful data
+WARNING: Transportation News exited 1; showing its last successful data
+econ indicators: 0 fresh, 12 failed
+  FAILED DFEDTARU: Command '['/usr/bin/curl', '-sS', '--fail', '-m', '30', 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFEDTARU&cosd=2024-08-19']' returned non-zero exit status 6.
+  FAILED DGS2: Command '['/usr/bin/curl', '-sS', '--fail', '-m', '30', 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2&cosd=2024-08-19']' returned non-zero exit status 6.
+  FAILED DGS10: Command '['/usr/bin/curl', '-sS', '--fail', '-m', '30', 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=2024-08-19']' returned non-zero exit status 6.
+  FAILED MORTGAGE30US: Command '['/usr/bin/curl', '-sS', '--fail', '-m', '30', 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=MORTGAGE30US&cosd=2024-08-19']' returned non-zero exit status 6.
+  FAILED CPIAUCSL: Command '['/usr/bin/curl', '-sS', '--fail', '-m', '30', 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCSL&cosd=2024-08-19']' returned non-zero exit status 6.
+  FAILED CPILFESL: Command '['/usr/bin/curl', '-sS', '--fail', '-m', '30', 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPILFESL&cosd=2024-08-19']' returned non-zero exit status 6.
+  FAILED UNRATE: Command '['/usr/bin/curl', '-sS', '--fail', '-m', '30', 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE&cosd=2024-08-19']' returned non-zero exit status 6.
+  FAILED DTWEXBGS: Command '['/usr/bin/curl', '-sS', '--fail', '-m', '30', 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=DTWEXBGS&cosd=2024-08-19']' returned non-zero exit status 6.
+  FAILED DEXKOUS: Command '['/usr/bin/curl', '-sS', '--fail', '-m', '30', 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXKOUS&cosd=2024-08-19']' returned non-zero exit status 6.
+  FAILED DEXJPUS: Command '['/usr/bin/curl', '-sS', '--fail', '-m', '30', 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS&cosd=2024-08-19']' returned non-zero exit status 6.
+  FAILED DEXUSEU: Command '['/usr/bin/curl', '-sS', '--fail', '-m', '30', 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU&cosd=2024-08-19']' returned non-zero exit status 6.
+  FAILED DEXCHUS: Command '['/usr/bin/curl', '-sS', '--fail', '-m', '30', 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXCHUS&cosd=2024-08-19']' returned non-zero exit status 6.
+WARNING: Economy indicators exited 1; showing its last successful data
+WARNING: Economy news exited 1; showing its last successful data
+HTML dashboard -> /Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/career-digest.html (14 digest(s), 79 items, 9 open deadline(s))

@@ -1,0 +1,24 @@
+Done, with one significant caveat. Summary:
+
+**Blocker encountered:** `automation/state.json` and its backup `state.json.bak-20261010` were unreadable all session — every read attempt (Read tool, `cat`, `cp`, Grep) failed with `EDEADLK`/"Resource deadlock avoided," while every other file in the same folder read fine, and `lsof` showed no process holding a lock. This looks like a OneDrive-side lock or corrupted placeholder specific to those two files, not a permissions problem. To avoid clobbering weeks of history with an incomplete reconstruction, I did **not** overwrite `state.json`. Instead I wrote `automation/state.json.PENDING-MERGE-2026-10-17.json` with just today's new items — merge it in by hand once the file is readable again (may just need a OneDrive restart/re-sync).
+
+**Digest written:** `automation/digests/2026-10-17.md`, with the lock issue flagged at the top. New verified items found today:
+- **Faculty:** University of Cincinnati TT Transportation Engineering & Systems opening (rolling, start Jan 2027) — confirmed open on UC's own portal, mentions AI/data-driven transportation.
+- **Research institution:** ORNL R&D Associate Staff role in the Applied Research for Mobility Systems group (CAV/ADAS/vehicle-in-the-loop sim) — unverified, couldn't find it on jobs.ornl.gov itself.
+- **Journal CFP:** *Transportation Research Part D* special issue "AI-Driven Modelling and Enhancement for Transportation Resilience under Disasters," deadline Feb 12, 2027 — verified on Elsevier's ScienceDirect page.
+- **Company:** Two Waymo roles (Research Scientist, World Model Post-Training; ML Engineer/Applied Scientist, Prediction & Planning) — both confirmed open on Waymo's own careers site.
+- No new items for postdoc or conferences (several portals — NREL, USAJOBS, UC Davis ITS, Aurora, Tesla — were unreachable/JS-blocked; noted in the digest).
+
+Dedup for this run relied on partial history (the two most recently-readable digests) since the real `state.json` couldn't be read — worth a manual check of today's digest against older entries if you have a moment.
+Traceback (most recent call last):
+  File "/Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/build-digest-html.py", line 412, in <module>
+    main()
+  File "/Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/build-digest-html.py", line 204, in main
+    digests = [parse_digest(p) for p in files]
+  File "/Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/build-digest-html.py", line 204, in <listcomp>
+    digests = [parse_digest(p) for p in files]
+  File "/Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/build-digest-html.py", line 54, in parse_digest
+    for raw in path.read_text(encoding="utf-8").splitlines():
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1257, in read_text
+    return f.read()
+OSError: [Errno 11] Resource deadlock avoided

@@ -1,0 +1,7 @@
+JSON is valid and both new URLs are recorded. Today's scan found slim pickings (daily cadence with only a one-day gap since the last run) — two new items after checking all six sections and standing sources:
+
+- **Maps & Navigation**: Mapbox added building-entrance geocoding data across 19 European countries.
+- **Research Evidence**: a new Mcity/U-Michigan arXiv preprint (Henry Liu's group) benchmarking an open-source AV stack's crash rate on a physical test track — flagged with the limitation that it's not a commercial public-road deployment.
+
+Everything else (Waymo, Aurora, Uber, Lyft, TomTom, HERE, Overture, NHTSA, CPUC, Crossref searches) turned up only stories already in the state file or background/undated material not meeting the bar. Digest written to `automation/transport-news-digests/2026-10-27.md` and `transport-news-state.json` updated with the two new URLs.
+Transportation News digest ready: /Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/transport-news-digests/2026-10-27.md

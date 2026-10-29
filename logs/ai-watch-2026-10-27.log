@@ -1,0 +1,11 @@
+JSON structure is valid and well-formed. The digest and state file are complete.
+
+**Summary of today's AI Watch (2026-10-27):**
+- **Model Releases**: OpenAI's claimed trio of AI-generated research results (math/CS/physics), explicitly framed by OpenAI as unverified "raw research data."
+- **Performance/Local**: No meaningful changes since the last snapshot (Artificial Analysis index unchanged, SWE-bench still unrenderable).
+- **AI in Research**: A transportation-specific paper (LLM-assisted WisDOT work-zone management plans) and a physics/cosmology study quantifying AI literature-review reliability (under 6% reference overlap with humans, ~3% fabrication rate).
+- **Leaders**: Hinton & Bengio joined a 499-signatory letter for international AI containment standards; Jack Clark's Import AI 478 on AI research speeding up.
+- **Community**: Reddit's r/opensource LLM-project ban controversy, a Trail of Bits/HN thread on verifying scoped agentic code changes, and HN discussion of Wikipedia's AI-content cleanup.
+
+Wrote `automation/ai-watch-digests/2026-10-27.md` and appended all newly reported URLs to `automation/ai-watch-state.json`.
+AI Watch digest ready: /Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/automation/ai-watch-digests/2026-10-27.md

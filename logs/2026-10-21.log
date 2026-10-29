@@ -1,0 +1,4 @@
+The JSON is well-formed (matching brackets/commas, visually confirmed since the validation command was auto-denied in this unattended session). No array is near the 500-entry trim threshold.
+
+Daily scan complete. Digest written to `automation/digests/2026-10-21.md` and `automation/state.json` updated with 11 new IDs across faculty (2), postdoc (2), research_inst (1), journals (1), and companies (2 postings, counted once each). Conferences had nothing new this pass. Most new finds came back from aggregators rather than employer domains — several JS-heavy portals (careers.lbl.gov, aurora.tech, careers.withwaymo.com, jobs.ornl.gov direct links) couldn't be confirmed directly, so those items are flagged `[unverified — may be closed]` in the digest per the verification rule.
+HTML dashboard -> /Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/career-digest.html (7 digest(s), 107 items, 9 open deadline(s))

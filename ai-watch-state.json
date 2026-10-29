@@ -4,24 +4,83 @@
     "https://www.anthropic.com/claude-sonnet-5-5",
     "https://www.anthropic.com/claude-haiku-5-5",
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-    "https://mistral.ai/news/mistral-large-4/"
+    "https://mistral.ai/news/mistral-large-4/",
+    "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-availability",
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "https://blog.cloudflare.com/clairic-extraction-model/",
+    "https://claude.com/product/claude-duet",
+    "https://mistral.ai/news/voxtral-3",
+    "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+    "https://www.kimi.ai/blog/kimi-k3-1-pro",
+    "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/"
   ],
   "performance": [
     "https://artificialanalysis.ai/leaderboards/models",
-    "https://www.swebench.com/"
+    "https://www.swebench.com/",
+    "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+    "https://arena.ai/leaderboard?arena=text",
+    "https://www.swebench.com/",
+    "https://lynchlab.net/llm-skin-cancer",
+    "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1"
   ],
   "local": [
     "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
-    "https://huggingface.co/google/gemma-4-12B-it"
+    "https://huggingface.co/google/gemma-4-12B-it",
+    "https://research.meta.ai/blog/muse-spark-open",
+    "https://reflection.ai/blog/beam-is-available",
+    "https://mistral.ai/news/timestral/",
+    "https://huggingface.co/LiquidAI/LFM3-1.7B"
   ],
   "research": [
     "https://arxiv.org/abs/2606.29014",
-    "https://arxiv.org/abs/2609.22049"
+    "https://arxiv.org/abs/2609.22049",
+    "https://arxiv.org/abs/2610.16140",
+    "https://arxiv.org/abs/2610.21042",
+    "https://arxiv.org/abs/2610.30953",
+    "https://arxiv.org/abs/2610.31372",
+    "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+    "https://arxiv.org/abs/2610.00705",
+    "https://arxiv.org/abs/2603.20235",
+    "https://arxiv.org/abs/2610.10650",
+    "https://arxiv.org/abs/2607.25672",
+    "https://www.anthropic.com/research/early-progress-drug-development"
   ],
   "community": [
     "https://news.ycombinator.com/item?id=49913571",
     "https://news.ycombinator.com/item?id=49624603",
     "https://www.reddit.com/r/LocalLLaMA/comments/1wcb0o3/deepseek_v41_flash_stronger_faster_more_accessible/",
-    "https://www.reddit.com/r/academia/comments/1wsxz3v/citing_ai_for_code_in_research_papers/"
+    "https://www.reddit.com/r/academia/comments/1wsxz3v/citing_ai_for_code_in_research_papers/",
+    "https://news.ycombinator.com/item?id=50145337",
+    "https://news.ycombinator.com/item?id=50151928",
+    "https://news.ycombinator.com/item?id=50141657",
+    "https://news.ycombinator.com/item?id=50186037",
+    "https://news.ycombinator.com/item?id=50190363",
+    "https://news.ycombinator.com/item?id=50176082",
+    "https://news.ycombinator.com/item?id=50197313",
+    "https://news.ycombinator.com/item?id=50198675",
+    "https://news.ycombinator.com/item?id=50212065",
+    "https://news.ycombinator.com/item?id=50220204",
+    "https://news.ycombinator.com/item?id=50224463",
+    "https://news.ycombinator.com/item?id=50223647",
+    "https://news.ycombinator.com/item?id=50226419",
+    "https://news.ycombinator.com/item?id=50233304",
+    "https://news.ycombinator.com/item?id=50235780",
+    "https://news.ycombinator.com/item?id=50233779",
+    "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+    "https://news.ycombinator.com/item?id=50183253",
+    "https://news.ycombinator.com/item?id=50257326",
+    "https://news.ycombinator.com/item?id=50276792",
+    "https://news.ycombinator.com/item?id=50284255"
+  ],
+  "leaders": [
+    "https://www.wsj.com/tech/ai/demis-hassabis-ai-deepmind-google-isomorphic-2b4e3153",
+    "https://www.windowslatest.com/2026/10/07/ai-wont-take-your-job-anytime-soon-microsofts-ai-boss-says-only-5-of-human-work-will-be-replaced-in-10-years/",
+    "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun/",
+    "https://officechai.com/ai/sam-altman-says-hes-uncomfortable-with-people-trying-to-ascribe-religious-force-to-ai-models/",
+    "https://thenextweb.com/news/yann-lecun-dario-amodei-deluded-rogue-agents-fortune",
+    "https://ai-security-letter.org/",
+    "https://importai.substack.com/p/import-ai-478-math-for-alignment"
   ]
 }

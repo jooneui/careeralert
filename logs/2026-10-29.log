@@ -1,0 +1,5 @@
+Scan complete for 2026-10-29. No genuinely new, still-open items surfaced across any of the six categories today — everything found either duplicated an entry already in `automation/state.json` or turned out to be closed/unverifiable on the employer's own domain (e.g., the ORNL mobility-systems R&D posting is confirmed closed, the Uber Mobility Matching Science listing 404s on jobs.uber.com, the IEEE T-ASE "connected/autonomous transportation" special issue already published its guest editorial in 2024).
+
+Digest written to `automation/digests/2026-10-29.md` with full scan notes per category (what was checked, what portals were unreachable — e.g. NCST/ITS-Davis 403, Argonne VMS careers page 403). `state.json` needs no changes since nothing new was confirmed.
+econ indicators: 12 fresh, 0 failed
+HTML dashboard -> /Users/jooneuihong/Library/CloudStorage/OneDrive-UCIrvine/06 Obisidian/05 Career/career-digest.html (15 digest(s), 79 items, 9 open deadline(s))
